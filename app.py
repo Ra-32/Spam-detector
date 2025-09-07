@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 
 # Load the saved model
-model = joblib.load('spam_classifier.joblib')  # Or 'spam_classifier.pkl' if using pickle
+model = joblib.load('spam2_classifier.joblib')  
 
 # Initialize Flask
 app = Flask(__name__)
